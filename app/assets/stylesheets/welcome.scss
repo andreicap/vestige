@@ -115,11 +115,13 @@ img::-moz-selection {
   border: 0;
   background-color: #fed136;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 }
 
 #mainNav .navbar-brand {
   color: #fed136;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+  text-shadow: 1px 1px 1px rgba(63,107,169, 0.5);
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -129,10 +131,12 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
   font-weight: 400;
-  padding: 0.75em 0;
+  padding: 0.5em 0;
   letter-spacing: 1px;
   color: white;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 1px rgba(63,107,169, 0.5);
+
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -185,6 +189,7 @@ header.masthead {
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
+  text-shadow: 1px 1px 1px rgba(63,107,169, 0.5);
 }
 
 header.masthead .intro-text .intro-lead-in {
