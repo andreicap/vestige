@@ -1,0 +1,55 @@
+ <div id="wrapper" class="toggled">
+
+  <!-- Sidebar -->
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a href="#">
+          Carac
+        </a>
+      </li>
+      <li>
+        <a href="#">What is Carac?</a>
+      </li>
+      <li>
+        <a href="#">Why is Carac?</a>
+      </li>
+      <li>
+        <a href="#">Overview</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <!-- /#sidebar-wrapper -->
+
+  <!-- Page Content -->
+  <div id="page-content-wrapper">
+    <a href="#menu-toggle" class="btn btn-light" id="menu-toggle"> <i class="fas fa-bars"></i> </a>
+    
+    <div class="jumbotron">
+    <div class="container-fluid">
+      <h1></h1>
+      
+      <div align="center">
+        <%= image_tag "caracs.jpg", :class => "img-fluid img-responsive" %>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- /#page-content-wrapper -->
+
+</div>
+
+
+
+<script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+</script>
