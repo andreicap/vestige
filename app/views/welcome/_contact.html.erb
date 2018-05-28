@@ -65,13 +65,18 @@
 </section>
 
 <script>
-$("#sendMessageButton").submit(function(e) {
+$("#mG61Hd").submit(function(e) {
+     $.ajax({
+      type: 'post',
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLSfqSip9vcDtFO3eLK6Cw8zcvZGQqZPsnvEifINHsjSUtDTrAA/formResponse',
+      data: $('#mG61Hd').serialize(),
+      success: function () {
+       alert("Form has been submitted!");
+      }
+    });
     e.preventDefault();
 });
-$("#sendMessageButton").addEventListener("click", function(){
-  window.location = "/";
-  alert("Thank you for contacting us! We'll get back to you ASAP");
-});
+
 </script>
 
 
