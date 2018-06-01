@@ -8,8 +8,16 @@ class WelcomeController < ApplicationController
 
   end
   
-  def simple_case
+  def normal1
+    
+  end
 
+  def normal2
+    
+  end
+
+  def normal3
+    
   end
 
   def fraud
@@ -22,3 +30,6 @@ class WelcomeController < ApplicationController
 
   
 end
+
+# pizzeria starita
+# Da michelle i condurro

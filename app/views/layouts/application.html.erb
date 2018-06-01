@@ -14,9 +14,14 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   </head>
 
+<body id="page-top">
+    <%= render 'navbar' %>
 
     <%= yield %>
 
+    <%= render 'footer' %>
+
+</body>
 
   <%= javascript_include_tag 'welcome/manifest', 'data-turbolinks-track': 'reload' %>
 
