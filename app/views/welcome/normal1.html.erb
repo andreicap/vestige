@@ -4,18 +4,22 @@
 <!-- Portfolio Grid -->
 <section class="bg-light" id="portfolio">
   <div class="container">
+
     <div class="row">
       <div class="col-lg-12 text-center">
         <p> <br/></p>
         <p><br/> </p>
         <p> <br/></p>
-        <h2 class="section-heading text-uppercase">Use Case</h2>
-        <h3 class="section-subheading text-muted">Click on any product for more info</h3>
+        <h2 class="section-heading text-uppercase">Product history</h2>
+        <h3 class="section-subheading text-muted">Click on any transaction for more info</h3>
+        <div class="alert alert-success" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <strong>Success!</strong> Transaction added succesfully!
+        </div>
       </div>
     </div>
 
     <div class="row">
-
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
           <div class="portfolio-hover">
@@ -72,4 +76,11 @@
     </div>
   </div>
 </div>
-<!-- 2 -->
+
+<script type="text/javascript">
+  window.setTimeout(function() {
+    $(".alert").fadeTo(500, 0).slideUp(500, function(){
+      $(this).remove(); 
+    });
+  }, 1500);
+</script>
