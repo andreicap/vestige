@@ -8,4 +8,17 @@ class WelcomeController < ApplicationController
 
   end
   
+  def simple_case
+
+  end
+
+  def fraud
+    
+  end
+
+  def mii
+    
+  end
+
+  
 end
